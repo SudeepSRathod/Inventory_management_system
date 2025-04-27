@@ -1,8 +1,9 @@
-**InventoryX - Full Stack Inventory Management System 🛒**
+#InventoryX - Full Stack Inventory Management System 🛒
+
 Streamlining Inventory, Empowering Your Business 💼
 Welcome to InventoryX, a modern, responsive full-stack Inventory Management System. Currently, this project is a work in progress, with the backend mostly completed and the frontend still under development. This system will allow businesses to efficiently manage their inventory, products, and orders.
 
-**Features (Implemented & Upcoming) 🚀**
+##Features (Implemented & Upcoming) 🚀
 Implemented:
 Product Management: Add, view, update, and delete products.
 Order Management: Basic functionality for order processing.
@@ -19,7 +20,7 @@ Full Dashboard: Stats for low stock alerts, product counts, and other metrics.
 User Role Management: Admin access, with future functionality for different user roles.
 Frontend Design Tweaks: Enhancements to UI/UX, including more animations and a polished theme.
 
-**Backend Folder Structure 📂**
+##Backend Folder Structure 📂
 <pre>
 src/
 ├── main/
@@ -35,7 +36,7 @@ src/
 └── InventoryXApplication.java     # Main Class
 </pre>
   
-**Frontend Folder Structure 📂**
+##Frontend Folder Structure 📂
 <pre>
 src/
 ├── app/
@@ -52,13 +53,13 @@ src/
 └── index.html                     # Entry Point
 </pre>
 
-**Technologies Used ⚙️**
+##Technologies Used ⚙️
 Backend: Java Spring Boot, Spring Security, JPA, PostgreSQL
 Frontend: Angular (LTS), HTML5, CSS3, JavaScript
 Database: PostgreSQL
 Authentication: JWT (JSON Web Tokens)
 
-**How to Run the Backend 🏃‍♂️**
+##How to Run the Backend 🏃‍♂️
 Clone the repository:
 bash
 Copy code
@@ -89,12 +90,12 @@ bash
 Copy code
 ng serve
 
-**Running the Full Stack 🛠️**
+##Running the Full Stack 🛠️
 Start the backend (Spring Boot application).
 Start the frontend (Angular application).
 Open your browser and go to http://localhost:4200 to access the app.
 
-**Contributing 🤝**
+##Contributing 🤝
 This project is still in its early stages, and contributions are more than welcome! You can help by:
 Submitting issues for bugs or feature requests.
 Providing feedback on the frontend design and functionality.
@@ -103,7 +104,7 @@ Suggesting improvements or new features.
 
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
 
-**Acknowledgements 🙏**
+##Acknowledgements 🙏
 Special thanks to the open-source community for making this project possible!
 Designed with a modern and professional color theme to enhance user experience.
 Stay tuned for updates as this project continues to evolve! 🎉
