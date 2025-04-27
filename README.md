@@ -20,6 +20,7 @@ User Role Management: Admin access, with future functionality for different user
 Frontend Design Tweaks: Enhancements to UI/UX, including more animations and a polished theme.
 
 **Backend Folder Structure 📂**
+<pre>
 src/
 ├── main/
 │   └── java/com/inventoryx/
@@ -32,9 +33,10 @@ src/
 │       ├── security/               # Spring Security
 │       └── exception/              # Custom Exceptions
 └── InventoryXApplication.java     # Main Class
-
+</pre>
+  
 **Frontend Folder Structure 📂**
-
+<pre>
 src/
 ├── app/
 │   ├── components/                # UI Components (Header, Footer, Sidebar)
@@ -48,6 +50,7 @@ src/
 ├── assets/                        # Images & Styles
 ├── environments/                  # Environment Settings
 └── index.html                     # Entry Point
+</pre>
 
 **Technologies Used ⚙️**
 Backend: Java Spring Boot, Spring Security, JPA, PostgreSQL
@@ -59,7 +62,7 @@ Authentication: JWT (JSON Web Tokens)
 Clone the repository:
 bash
 Copy code
-<pre>git clone https://github.com/SudeepSRathod/Inventory_management_system.git<pre>
+<pre>git clone https://github.com/SudeepSRathod/Inventory_management_system.git</pre>
 Navigate to the backend folder and open it in your IDE (Spring Tool Suite).
 Ensure you have PostgreSQL installed and set up a database.
 Configure the application.properties file to connect to your PostgreSQL database.
@@ -97,7 +100,7 @@ Submitting issues for bugs or feature requests.
 Providing feedback on the frontend design and functionality.
 Suggesting improvements or new features.
 
-**License 📄**
+
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
 
 **Acknowledgements 🙏**
