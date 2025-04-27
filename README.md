@@ -61,34 +61,39 @@ Authentication: JWT (JSON Web Tokens)
 
 ##How to Run the Backend 🏃‍♂️
 Clone the repository:
-bash
+```bash
 Copy code
-'''git clone https://github.com/SudeepSRathod/Inventory_management_system.git'''
+git clone https://github.com/SudeepSRathod/Inventory_management_system.git'''
+```
 Navigate to the backend folder and open it in your IDE (Spring Tool Suite).
 Ensure you have PostgreSQL installed and set up a database.
 Configure the application.properties file to connect to your PostgreSQL database.
 
 Run the Spring Boot application:
-bash
+```bash
 Copy code
 mvn spring-boot:run
+```
+
 How to Run the Frontend 🖥️
 Clone the repository:
-
-bash
+```bash
 Copy code
 git clone https://github.com/SudeepSRathod/Inventory_management_system.git
-Navigate to the frontend folder and install dependencies:
+```
 
-bash
+Navigate to the frontend folder and install dependencies:
+```bash
 Copy code
 cd frontend
 npm install
-Run the Angular application:
+```
 
-bash
+Run the Angular application:
+```bash
 Copy code
 ng serve
+```
 
 ##Running the Full Stack 🛠️
 Start the backend (Spring Boot application).
