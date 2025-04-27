@@ -1,0 +1,30 @@
+<div [formGroup]="itemForm" class="order-item-form row">
+    <div class="col-md-4 mb-3">
+      <label>Product ID</label>
+      <input type="text" class="form-control" formControlName="productId" />
+      <div *ngIf="itemForm.get('productId')?.touched && itemForm.get('productId')?.invalid" class="text-danger">
+        Required.
+      </div>
+    </div>
+  
+    <div class="col-md-3 mb-3">
+      <label>Quantity</label>
+      <input type="number" class="form-control" formControlName="quantity" />
+      <div *ngIf="itemForm.get('quantity')?.touched && itemForm.get('quantity')?.invalid" class="text-danger">
+        Must be at least 1.
+      </div>
+    </div>
+  
+    <div class="col-md-3 mb-3">
+      <label>Price</label>
+      <input type="number" class="form-control" formControlName="price" />
+      <div *ngIf="itemForm.get('price')?.touched && itemForm.get('price')?.invalid" class="text-danger">
+        Minimum price 0.01.
+      </div>
+    </div>
+  
+    <div class="col-md-2 d-flex align-items-end">
+      <button type="button" class="btn btn-danger" (click)="onRemove()">Remove</button>
+    </div>
+  </div>
+  

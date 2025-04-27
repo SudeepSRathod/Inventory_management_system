@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <h2>Edit Order</h2>
+  
+    <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label>Customer Name</label>
+        <input type="text" class="form-control" formControlName="customerName" />
+      </div>
+  
+      <div class="mb-3">
+        <label>Order Date</label>
+        <input type="date" class="form-control" formControlName="orderDate" />
+      </div>
+  
+      <div class="mb-3">
+        <label>Total Amount</label>
+        <input type="number" class="form-control" formControlName="totalAmount" />
+      </div>
+  
+      <button type="submit" class="btn btn-primary" [disabled]="orderForm.invalid">Update Order</button>
+    </form>
+  </div>
+  

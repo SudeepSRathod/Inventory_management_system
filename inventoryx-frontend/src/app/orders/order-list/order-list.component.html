@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <h2>Orders</h2>
+  
+    <table class="table table-striped mt-3" *ngIf="orders.length > 0; else noOrders">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Customer</th>
+          <th>Order Date</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders">
+          <td>{{order.id}}</td>
+          <td>{{order.customerName}}</td>
+          <td>{{order.orderDate | date}}</td>
+          <td>${{order.totalAmount}}</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <ng-template #noOrders>
+      <div class="alert alert-warning mt-4">
+        No orders found.
+      </div>
+    </ng-template>
+  </div>
+  

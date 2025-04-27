@@ -1,0 +1,18 @@
+<div class="app-wrapper">
+  <!-- Header (shown when logged in) -->
+  <app-header *ngIf="isLoggedIn"></app-header>
+
+  <!-- Main Content Area -->
+  <main class="content-wrapper">
+    <!-- Sidebar (shown when logged in) -->
+    <app-sidebar *ngIf="isLoggedIn" class="sidebar"></app-sidebar>
+
+    <!-- Dynamic Content Area -->
+    <div class="page-content">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+
+  <!-- Footer (shown when logged in) -->
+  <app-footer *ngIf="isLoggedIn" class="footer"></app-footer>
+</div>
