@@ -1,4 +1,4 @@
-#InventoryX - Full Stack Inventory Management System 🛒
+#InventoryX - Full Stack Inventory Management System 🛒#
 
 Streamlining Inventory, Empowering Your Business 💼
 Welcome to InventoryX, a modern, responsive full-stack Inventory Management System. Currently, this project is a work in progress, with the backend mostly completed and the frontend still under development. This system will allow businesses to efficiently manage their inventory, products, and orders.
