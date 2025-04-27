@@ -63,7 +63,7 @@ Authentication: JWT (JSON Web Tokens)
 Clone the repository:
 bash
 Copy code
-<pre>git clone https://github.com/SudeepSRathod/Inventory_management_system.git</pre>
+'''git clone https://github.com/SudeepSRathod/Inventory_management_system.git'''
 Navigate to the backend folder and open it in your IDE (Spring Tool Suite).
 Ensure you have PostgreSQL installed and set up a database.
 Configure the application.properties file to connect to your PostgreSQL database.
